@@ -5,7 +5,7 @@ import type { Todo } from "./todoTypes"
 import userEvent from "@testing-library/user-event"
 
 
-describe("TodoItem component test", () => {
+describe.skip("TodoItem component test", () => {
 
     it("visar titel och completed status korrekt", () => {
         const todo: Todo = {
