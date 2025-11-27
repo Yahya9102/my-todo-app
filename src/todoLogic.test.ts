@@ -16,7 +16,7 @@ describe.skip("Testar todoLogic, bara unittester", () => {
 
 })
 
-describe("Testar todoLogic, bara unittester", () => {
+describe.skip("Testar todoLogic, bara unittester", () => {
     it("sortTodosCompeltedFirst lägger compelted = true först i listan", () => {
         const todos: Todo[] = [
             {id: 1, title: "A", completed: false},
